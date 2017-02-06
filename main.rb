@@ -19,7 +19,7 @@ browser.divs(:class => '_4l_v').each do |div|
 	if temp_text.include? "was"
 		next
 	end
-	if temp_text.include? "birthday"
+	if temp_text.include? "birthdaybirthday"
 		temp_text = temp_text.split(' ')
 		temp_text = "#{temp_text[0]} #{temp_text[1]}"
 		names << temp_text 
